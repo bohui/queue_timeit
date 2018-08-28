@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/queue_timeit
+   */site-packages/queue_timeit
+
+[run]
+branch = true
+source =
+    queue_timeit
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
